@@ -19,8 +19,8 @@ public class Livre {
 /**
  * Le getter de Livre, pour le Titre uniquement
  */
-	void getTitre(){
-		System.out.println(this.titre);
+	String getTitre(){
+		return this.titre;
 	}
 
 }

@@ -16,8 +16,8 @@ public class Etagere {
 	/**
 	 * le getter de Etagere
 	 */
-	void getNumeroEtagere(){
-		System.out.println(this.numero);
+	int getNumeroEtagere(){
+		return this.numero;
 	}
 
 }
